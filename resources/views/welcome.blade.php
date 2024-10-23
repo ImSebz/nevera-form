@@ -20,12 +20,6 @@
         <h1>¡Usa el #ExperienciaBull y acumula puntos para ganar!</h1>
         <p>Inscríbete aquí</p>
 
-        @if (session('success'))
-            <div class="alert alert-success">
-                {{ session('success') }}
-            </div>
-        @endif
-
         <form action="{{ route('registro') }}" method="POST">
             @csrf
             <label for="name">Nombre</label>
