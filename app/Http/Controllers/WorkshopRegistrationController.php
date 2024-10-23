@@ -19,6 +19,6 @@ class WorkshopRegistrationController extends Controller
 
         WorkshopRegistration::create($request->all());
 
-        return redirect()->away('https://imsebz.github.io/bull-game/');
+        return redirect()->away('https://bullmarketing.com.co/formulario-ctg-nevera/');
     }
 }
